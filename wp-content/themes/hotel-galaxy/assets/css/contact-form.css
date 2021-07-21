@@ -1,0 +1,293 @@
+#main-home-shortcode .overlay{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#main-home-shortcode .entry-header .bar{
+	display: none;
+}
+
+div#contact-template-area .overlay{
+	padding-top: 40px;
+}
+
+.contact-content-area div.entry-header{
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.contact-content-area div.entry-header p{
+	max-width: unset;
+}
+
+.user-contact-form{
+	box-shadow: 0px 3px 63px 0px rgb(40 40 40 / 14%);	
+	border-radius: 10px;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.hg-map{
+	margin-top:60px;
+	box-shadow: -9px -11px 19px rgb(0 0 0 / 9%);
+}
+
+.contact-content-area .contact-form {
+	padding: 52px;
+	content: " ";
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-size: contain;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.contact-details-inner .inner-box h3 {
+	margin-top: 11px;
+	color: var(--theme-color);
+}
+
+.contact-details:before, .contact-form:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	opacity: 0.1;
+	content: " ";
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.contact-details-inner {
+	padding: 40px 15px;
+}
+.contact-details-inner figure {
+	padding: 16px;
+	border-bottom: 1px dotted rgb(0 0 0 / 30%);
+}
+.contact-details-inner figure:last-child{
+
+	border-bottom: 0;
+}
+.contact-details-inner figure figcaption {
+	display: flex;
+
+}
+
+.contact-details-inner figure figcaption p {
+	margin: 0;
+}
+.contact-content-area .wpcf7-form label input,
+.contact-content-area .wpcf7-form label textarea{
+	border-radius: 4px;
+}
+
+.contact-content-area .contact-form{
+	background-color: #ffffff;
+}
+
+.contact-content-area .contact-details {
+	background-color: #04102d;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	color: #ffff;
+}
+.contact-title {
+	margin-bottom: 30px;
+}
+.contact-title h2 {
+	font-weight: bold;
+}
+.contact-details .contact-title {
+	max-width: 300px;
+}
+
+/*template*/
+.contact-content-area .container{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.contact-content-area .template-contact-form-content{
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+.contact-content-area .template-contact-form-content .form-header-group{
+	padding: 30px 36px;
+}
+
+.contact-content-area .hg-contact-form{
+	padding: 16px 36px;
+}
+
+span.icon_box {
+	margin-right: 22px;
+	display: block;
+	opacity: 0.8;
+	font-size: 43px;
+}
+
+.contact-content-area .wpcf7-form label{
+	width: 100%;		
+	color: #000000;
+	font-weight: 400;
+}
+
+.contact-content-area .wpcf7-form label input,
+.contact-content-area .wpcf7-form label textarea{
+	margin-top: 10px;
+	width: 100%;
+	border-radius: 4px;
+	background-color: #fbfbfb;
+	padding: 9px;	
+	border: 1px solid #0000001a;
+}
+
+.contact-content-area  .wpcf7-form label textarea{
+	height: 100px;
+}
+
+.contact-content-area .wpcf7-form label input:focus,
+.contact-content-area .wpcf7-form label textarea:focus{
+	box-shadow: 5px 5px 10px #ccc;
+}
+
+.wpcf7-list-item input[type="checkbox"]{
+	margin: 0!important;
+	width: auto!important;
+}
+
+span.wpcf7-list-item{
+	margin: auto!important;
+}
+
+.hotel-g-contact-form .wpcf7 {
+	padding: 24px;
+	background: #fff;
+}
+.wpcf7-form.init p  {
+	width: 97%;
+	margin: 0 auto;
+}
+.wpcf7-form.init p:nth-child(2)  {
+	width:45%;
+	float: left;
+	margin-left: 8px;
+} 
+
+
+.wpcf7-form.init p:nth-child(3)  {
+	width: 46%;
+	float: right;
+	margin-right: 6px;
+} 
+
+/* Animation webkit */
+@-webkit-keyframes myfirst
+{
+	0% {margin-left: -235px}
+	90% {margin-left: 100%;}
+	100% {margin-left: 100%;}
+}
+
+/* Animation */
+@keyframes myfirst
+{
+	0% {margin-left: -235px}
+	70% {margin-left: 100%;}
+	100% {margin-left: 100%;}
+}
+
+
+/*contact form 7**/
+
+span.icon_box {
+	margin-right: 22px;
+	display: block;
+	opacity: 0.8;
+	font-size: 43px;
+}	
+
+
+.contact-content-area .wpcf7-form label{
+	width: 100%;		
+	color: #000000;
+	font-weight: 400;
+}
+
+.contact-content-area .wpcf7-form label input,
+.contact-content-area .wpcf7-form label textarea{
+	margin-top: 10px;
+	width: 100%;
+	border-radius: 4px;
+	background-color: #fbfbfb;
+	padding: 9px;	
+	border: 1px solid #0000001a;
+}
+
+.contact-content-area  .wpcf7-form label textarea{
+	height: 100px;
+}
+
+.contact-content-area .wpcf7-form label input:focus,
+.contact-content-area .wpcf7-form label textarea:focus{
+	box-shadow: 5px 5px 10px #ccc;
+}
+
+.wpcf7-list-item input[type="checkbox"]{
+	margin: 0!important;
+	width: auto!important;
+}
+
+span.wpcf7-list-item{
+	margin: auto!important;
+}
+
+.hotel-g-contact-form .wpcf7 {
+	padding: 24px;
+	background: #fff;
+}
+.wpcf7-form p  {
+	width: 97%;
+	margin: 0 auto;
+}
+.wpcf7-form p:nth-child(2)  {
+	width:45%;
+	float: left;
+	margin-left: 8px;
+} 
+
+
+.wpcf7-form p:nth-child(3)  {
+	width: 46%;
+	float: right;
+	margin-right: 6px;
+} 
+
+@media only screen and (max-width: 767px) {
+
+	.wpcf7-form p:nth-child(2),	
+	.wpcf7-form p:nth-child(3) {
+		width: 100%;
+		float: none;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.template-contact-form{
+		display:block;
+	}	
+
+	.contact-content-area{
+		display:block;
+	}
+}

@@ -1,0 +1,23 @@
+/*
+Theme Name: Hotel Galaxy
+Theme URI: https://webdzier.com/themes/hotel-galaxy-premium/
+Author: Webdzier
+Author URI: https://webdzier.com/
+Description: Hotel Galaxy is a Modern Hotel & Room Booking WordPress theme that is perfectly suitable for the hotel, resort, villas, and all kinds of hotel industry websites. This eye-catching theme is looking gorgeous for its clean and smooth design. It is compatible with the Advanced Booking Calendar plugin. The built-in booking system comes with some extended options. For example, if someone wants to book a room, they can do it either by searching a particular room from the search bar. Hotel Galaxy comes with the necessary features for your online presence. Check demo here http://webdzier.com/demo/lite/hotel-galaxy/
+Version: 4.4.3
+Requires at least: 4.5
+Tested up to: 5.7.1
+Requires PHP: 5.6
+Tags: blog, entertainment, one-column, two-columns, right-sidebar, custom-colors, custom-menu, threaded-comments, custom-header, custom-background, custom-logo, featured-images, featured-image-header
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hotelgalaxy
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*-----------------------------Custom Css------------------------------------------ */
+
+
+.sticky{}
+.bypostauthor{}
